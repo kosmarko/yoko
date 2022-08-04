@@ -1,0 +1,269 @@
+.our_articles {
+  padding: 0 0 75px;
+}
+.articles_blog {
+  padding-bottom: 12px;
+}
+
+.articles_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card--blog {
+  background: none;
+  padding-top: 56px;
+}
+
+.card-body--blog {
+  padding: 23px 0 10px;
+  border-radius: 0;
+}
+
+.card-body--blog h4 {
+  max-width: 335px;
+}
+
+.card-text--blog {
+  padding: 10px 0 46px;
+}
+
+.categories {
+  padding: 65px 64px 48px 65px;
+  background-color: #202957;
+  border-radius: 8px;
+  margin-bottom: 35px;
+}
+
+.articles_blog--categories {
+  color: #dfe8f8;
+  padding-bottom: 10px;
+}
+
+.nav_sticky {
+  position: sticky;
+  top: 110px;
+}
+
+.categories_tabs {
+  padding-bottom: 10px;
+}
+
+.categories_tabs ul {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.categories_tabs ul li {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: 0.3s linear;
+  border: 1px solid #aeb1c0;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  margin-right: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.categories_tabs ul li:hover {
+  background-color: #2b3460;
+  transition: 0.3s linear;
+  border: 1px solid transparent;
+}
+
+.active {
+  background-color: #2b3460;
+  transition: 0.3s linear;
+  border: 1px solid transparent !important;
+}
+
+.card--categories {
+  position: relative;
+  max-width: 405px;
+  margin-left: 29px;
+}
+
+.card-body--categories {
+  padding: 16px 0 54px;
+  border-radius: 0;
+}
+
+.card-body--categories h3 {
+  font-size: 36px;
+}
+
+.card-text--categories {
+  padding: 12px 0 40px;
+}
+
+@media screen and (max-width: 2560px) {
+}
+
+@media screen and (max-width: 1640px) {
+}
+
+@media screen and (max-width: 1536px) {
+  .our_articles {
+    padding: 0 0 60px;
+  }
+
+  .categories {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1399px) {
+  .card-body--categories h3 {
+    font-size: 31px;
+    line-height: 29.12px;
+  }
+
+  .card--categories {
+    max-width: 347px;
+    margin-left: 20px;
+  }
+
+  .card--blog {
+    padding-top: 20px;
+  }
+
+  .blog_tabs ul {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+  .articles_header {
+    flex-direction: column;
+  }
+
+  .articles_heading {
+    padding-bottom: 40px;
+  }
+
+  .categories {
+    padding: 40px;
+  }
+
+  .card--categories {
+    max-width: 298px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+  .read__more {
+    padding-bottom: 0;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+
+  .card-body--blog {
+    padding: 23px 0 0;
+    border-radius: 0;
+  }
+
+  .card-text--blog {
+    padding: 10px 0 40px;
+  }
+
+  .categories {
+    padding: 40px 20px 0 0;
+  }
+
+  .nav_sticky {
+    padding-left: 20px;
+  }
+
+  .card--categories {
+    max-width: 318px;
+    margin-left: 20px;
+  }
+
+  .categories_tabs ul {
+    flex-direction: row;
+    padding-bottom: 15px;
+  }
+
+  .categories_tabs ul li {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+
+  .card-body--categories {
+    padding: 16px 0 40px;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 872px) {
+}
+
+@media screen and (max-width: 767px) {
+  .card-body--categories h3 {
+    font-size: 28px;
+    line-height: 27.12px;
+  }
+
+  .card--categories {
+    max-width: 475px;
+  }
+
+  .categories_tabs ul {
+    flex-wrap: wrap;
+  }
+
+  .categories_tabs ul li {
+    width: 31.9%;
+    margin-right: 10px;
+  }
+
+  .categories_tabs ul li:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .categories_tabs ul li:nth-child(6) {
+    margin-right: 0;
+  }
+
+
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 414px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+}

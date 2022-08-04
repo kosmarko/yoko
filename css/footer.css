@@ -1,0 +1,248 @@
+footer {
+  padding: 43px 0 69px;
+}
+
+.footer_logo a {
+  display: inline-block;
+  color: #dfe8f8;
+  font-size: 33px;
+}
+
+.footer_text {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer_text p {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer_input {
+  max-width: 352px;
+  position: relative;
+}
+
+.input-group-prepend {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-control--footer {
+  padding: 15px 140px 19px 16px;
+  background-color: transparent;
+  border-radius: 8px !important;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control--footer:focus {
+  z-index: 0 !important;
+  background: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn_submit {
+  font-size: 20px;
+  width: 130px;
+  background-color: #3484cc;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 11px;
+  transition: 0.3s linear;
+}
+
+.btn_submit:hover {
+  color: #dfe8f8;
+  background-color: #020202ab;
+  transition: 0.3s linear;
+}
+
+.footer_text--socials {
+  padding-top: 66px;
+  padding-bottom: 16px;
+}
+
+.footer_media {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_socials {
+  display: flex;
+}
+
+.footer_instagram {
+  padding: 0 25px;
+}
+
+.footer_copyright {
+  max-width: 322px;
+  padding-left: 142px;
+}
+
+.footer_copyright p {
+  font-family: "Eudoxus Sans", sans-serif;
+  font-size: 14px;
+  line-height: 23.24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_pages ul {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 0;
+}
+
+.footer_pages ul li {
+  padding-top: 15px;
+}
+
+.footer_pages ul li a {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.7) !important;
+  transition: 0.3s linear;
+}
+
+.footer_pages ul li a:hover {
+  color: #1fe0ff !important;
+  transition: 0.3s linear;
+}
+
+.footer_support {
+  width: 180px;
+  margin-top: -108px;
+}
+
+.support_name {
+  padding-top: 11px;
+}
+
+.support_name p:first-child {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 5px;
+}
+
+.support_name p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer_about {
+  padding: 27px 0 60px;
+}
+
+.footer_blog {
+  padding: 60px 0 60px;
+}
+
+.subscribe_responsive {
+  display: none;
+}
+
+@media screen and (max-width: 2560px) {
+}
+
+@media screen and (max-width: 1640px) {
+}
+
+@media screen and (max-width: 1536px) {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1360px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+  .footer_text--socials {
+    padding-top: 40px;
+  }
+
+  .footer_media {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer_copyright {
+    padding: 20px 0 40px;
+  }
+
+  .footer_support {
+    margin-top: -137px;
+  }
+}
+
+@media screen and (max-width: 872px) {
+}
+
+@media screen and (max-width: 767px) {
+  .footer_support {
+    margin-top: 0;
+  }
+
+  .footer_copyright {
+    padding: 20px 0 10px;
+  }
+
+  .footer_text--socials {
+    padding-top: 30px;
+}
+
+  .footer_pages {
+    padding-top: 14px;
+  }
+
+  .subscribe_desktop {
+    display: none;
+  }
+
+  .subscribe_responsive {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 414px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+}

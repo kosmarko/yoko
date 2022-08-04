@@ -1,0 +1,333 @@
+.banner--about {
+  padding: 19px 0 83px;
+}
+
+.about_me {
+  padding: 76px 0 102px;
+  background-color: #202957;
+  position: relative;
+  z-index: 0;
+}
+
+.about__paragraph {
+  max-width: 471px;
+  padding-top: 20px;
+  padding-bottom: 59px;
+}
+
+.about__paragraph p {
+  font-size: 20px;
+  line-height: 27.9px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.services__item--about {
+  background-color: #323b6b;
+  padding: 40px 20px 38px 29px;
+  border-radius: 8px;
+}
+
+.services__name--about {
+  padding: 19px 0 12px;
+}
+
+.services__name--about h3 {
+  font-size: 36px;
+}
+
+.item__paragraph--about {
+  padding: 0;
+}
+
+.blog_title--team {
+  align-items: flex-end;
+}
+
+.team {
+  padding: 72px 0;
+}
+
+.team_paragraph {
+  max-width: 347px;
+  padding-top: 20px;
+}
+
+.team_paragraph p {
+  font-size: 22px;
+  line-height: 26.29px;
+  letter-spacing: -0.03em;
+}
+
+.image_wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.image_wrapper:hover .founder_info {
+  transform: translateY(-16px);
+  -webkit-transition: 0.25s linear;
+  -moz-transition: 0.25s linear;
+  transition: 0.3s linear;
+}
+
+.founder_img img {
+  width: 100%;
+}
+
+.founder_name {
+  padding: 17px 0 13px;
+}
+
+.founder_name h3 {
+  font-size: 36px;
+}
+
+.founder_position {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.founder_info {
+  position: absolute;
+  width: 90px;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 7px 13px 8px 15px;
+  margin-left: 15px;
+  transform: translateY(100%);
+  -webkit-transition: 0.25s linear;
+  -moz-transition: 0.25s linear;
+  transition: 0.3s linear;
+}
+
+.founder_linkedin {
+  padding-right: 18px;
+}
+
+.our_story {
+  position: relative;
+  z-index: 0;
+  background-color: #202957;
+  padding: 72px 0 93px;
+}
+
+.story_paragraph {
+  max-width: 347px;
+  padding-top: 14px;
+  padding-bottom: 49px;
+}
+
+.story_item {
+  max-width: 624px;
+  background-color: #323b6b;
+  padding: 30px 36px 37px 50px;
+  border-radius: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.story_year h3 {
+  font-size: 36px;
+}
+
+/* imao sam istu sintaksu ali razlicito ime klase kakva je praksa u tom slucaju (founder_position) */
+.story_title {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 13px 0 10px;
+}
+
+@media screen and (max-width: 2560px) {
+}
+
+@media screen and (max-width: 1640px) {
+}
+
+@media screen and (max-width: 1536px) {
+  .banner--about {
+    padding-bottom: 60px;
+  }
+
+  .about_me {
+    padding: 60px 0;
+  }
+
+  .about__paragraph {
+    padding-bottom: 40px;
+  }
+
+  .team {
+    padding: 60px 0;
+  }
+
+  .blog_title {
+    padding-bottom: 40px;
+  }
+
+  .our_story {
+    padding: 60px 0;
+  }
+
+  .story_paragraph {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
+  .story_slider {
+    overflow-x: hidden;
+  }
+
+  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
+  .story_slider > .slick-list {
+    position: relative;
+    overflow-x: hidden;
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .services__name--about h3 {
+    font-size: 31px;
+    line-height: 29.12px;
+  }
+
+  .founder_name h3 {
+    font-size: 31px;
+    line-height: 29.12px;
+  }
+
+  .story_year h3 {
+    font-size: 31px;
+    line-height: 29.12px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+  .about__paragraph {
+    max-width: 100%;
+  }
+
+  .services__item--about {
+    margin-bottom: 24px;
+  }
+
+  .about_me {
+    padding: 60px 0 36px;
+  }
+
+  .founder_position {
+    padding-bottom: 20px;
+  }
+
+  .team {
+    padding: 60px 0 40px;
+  }
+}
+
+@media screen and (max-width: 872px) {
+}
+
+@media screen and (max-width: 767px) {
+  .team_paragraph {
+    max-width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .blog_title--team {
+    align-items: flex-start;
+  }
+
+  .story_paragraph {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .container_arrows {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .story_item {
+    max-width: 580px;
+  }
+
+  .services__name--about h3 {
+    font-size: 28px;
+    line-height: 27.12px;
+  }
+
+  .founder_name h3 {
+    font-size: 28px;
+    line-height: 27.12px;
+  }
+
+  .story_year h3 {
+    font-size: 28px;
+    line-height: 27.12px;
+  }
+
+  .story_item {
+    max-width: 500px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .story_item {
+    max-width: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .story_item {
+    max-width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .story_item {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .story_item {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+}

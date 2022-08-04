@@ -1,0 +1,487 @@
+.latest_projects {
+  padding: 64px 0 82px;
+}
+
+.projects__paragraph {
+  max-width: 398px;
+  padding-top: 12px;
+  padding-bottom: 48px;
+}
+
+.projects__paragraph p {
+  margin-bottom: 0;
+}
+
+.project__item {
+  max-width: 624px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+  border-radius: 0px 0px 16px 16px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.project__wrapper {
+  position: absolute;
+  transform: translateY(157%);
+  transition: 0.3s linear;
+  left: 0;
+  bottom: 0;
+  padding-left: 33px;
+  padding-bottom: 37px;
+  border-radius: 0px 0px 16px 16px;
+  margin-left: 12px;
+}
+
+.project__view a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94px;
+  height: 94px;
+  background-color: rgba(255, 255, 255, 0.53);
+  border-radius: 50%;
+  bottom: 87%;
+  right: 8%;
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  transition: 0.3s linear;
+}
+
+.project__view a:hover {
+  background-color: #020202ab;
+  transition: 0.3s linear;
+}
+
+.project__view a {
+  color: #dfe8f8;
+}
+
+.project__info {
+  max-width: 529px;
+  padding-top: 9px;
+}
+
+.project__info p {
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
+}
+
+.project__item:hover .project__wrapper {
+  transform: translateY(0);
+  transition: 0.3s ease-out;
+}
+
+.project__image img {
+  border-radius: 17px;
+}
+
+.project__image {
+  position: relative;
+}
+
+.project__image::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.592) 45.2%,
+    rgba(0, 0, 0, 0) 91.35%
+  );
+}
+
+.project__item:hover .project__image::after {
+  transform: translateY(20%);
+  transition: transform 0.3s ease-out;
+}
+
+.client_feedback__paragraph {
+  /* max-width: 537px; */
+  padding: 43px 0 43px;
+}
+
+.container_wrapper {
+  background-color: #202957;
+  padding: 47px 57px 58px 64px;
+  border-radius: 16px;
+  position: relative;
+  z-index: -1;
+}
+
+.client_img {
+  max-width: 57px;
+  max-height: 60px;
+}
+
+.client_name {
+  color: #ffffff;
+  padding: 16px 0 12px;
+}
+
+.client_profesion {
+  font-family: "Optician Sans", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.senectus {
+  padding: 65px 0 110px;
+}
+
+.senectus_heading {
+  max-width: 492px;
+}
+
+.senectus_paragraph {
+  padding: 16px 0 27px;
+}
+
+.senectus_list {
+  list-style-type: none;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.tab_wrapper {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.senectus_nascetur {
+  overflow-y: auto;
+  height: 373px;
+}
+
+.senectus_nascetur__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 20px 35px 0;
+}
+
+.senectus_nascetur__title h3 {
+  font-size: 36px;
+  line-height: 33.12px;
+  padding-left: 25px;
+}
+
+.senectus_nascetur__plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 34%;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.plus_vertical {
+  position: absolute;
+  right: 3px;
+  width: 20px;
+  height: 1.5px;
+  background-color: #dfe8f8;
+  transform: rotate(90deg);
+}
+
+.plus_horizontal {
+  width: 21px;
+  height: 1.5px;
+  background-color: #dfe8f8;
+}
+
+.senectus_panel {
+  display: none;
+  padding: 12px 0;
+  padding-left: 25px;
+}
+
+.senectus_btn {
+  padding-top: 43px;
+}
+
+.companies_heading {
+  padding-left: 33px;
+  padding-bottom: 36px;
+}
+
+.companies_slider {
+  background-color: #202957;
+  border-radius: 16px;
+  display: flex !important;
+  align-items: center;
+}
+
+.companies_slider > .slick-list > .slick-track {
+  position: relative;
+  left: -5.5%;
+}
+
+.companies_img {
+  padding: 69px 47px;
+}
+
+.companies_img img {
+  width: 90px;
+  height: 20px;
+}
+
+.together {
+  background-color: #202957;
+  padding: 80px 0 115px;
+}
+
+.together_heading {
+  text-align: center;
+  padding-bottom: 41px;
+}
+
+.together_btn {
+  text-align: center;
+}
+
+.explore__button--template {
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 2560px) {
+}
+
+@media screen and (max-width: 1640px) {
+}
+
+@media screen and (max-width: 1536px) {
+  .latest_projects {
+    padding: 60px 0;
+  }
+
+  .projects__paragraph {
+    padding-bottom: 40px;
+  }
+
+  .senectus {
+    padding: 60px 0;
+  }
+
+  .together {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
+  .projects_slider {
+    overflow-x: hidden;
+  }
+  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
+  .projects_slider > .slick-list {
+    position: relative;
+    left: 4%;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .project__item {
+    max-width: 500px;
+  }
+
+  .client_feedback__paragraph {
+    padding: 40px 0;
+  }
+
+  .senectus_nascetur__title h3 {
+    font-size: 31px;
+    line-height: 29.12px;
+    padding-left: 25px;
+  }
+
+  .senectus_nascetur__title {
+    padding: 20px 20px 25px 0;
+  }
+
+  .senectus_paragraph {
+    padding: 16px 0 17px;
+  }
+
+  .senectus_btn {
+    padding-top: 30px;
+  }
+
+  .project__view a {
+    width: 74px;
+    height: 74px;
+    font-size: 16px;
+  }
+
+  .project__wrapper {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .project__info p {
+    line-height: 22px;
+  }
+
+  .senectus_nascetur {
+    height: 303px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .explore__button--template {
+    padding-top: 17px;
+    padding-bottom: 19px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1199px) {
+  .container_wrapper {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+  .client_feedback__paragraph {
+    padding: 30px 0 20px;
+  }
+
+  .senectus_left {
+    padding-bottom: 40px;
+  }
+
+  .senectus_left img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .senectus_heading {
+    max-width: 100%;
+  }
+
+  .client_feedback__heading {
+    padding-bottom: 10px;
+  }
+
+  .janet_moore {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .client_feedback__paragraph {
+    padding-bottom: 10px;
+  }
+
+  .client_img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 872px) {
+}
+
+@media screen and (max-width: 767px) {
+  .projects__paragraph {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .container_arrows {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .companies_img {
+    padding: 50px;
+  }
+
+  .senectus_nascetur__title h3 {
+    font-size: 28px;
+    line-height: 25.12px;
+    padding-left: 0;
+  }
+
+  .senectus_nascetur__title h3 {
+    font-size: 28px;
+    line-height: 25.12px;
+    padding-left: 0;
+  }
+
+  .companies_heading {
+    padding-left: 12px;
+    padding-bottom: 36px;
+  }
+
+  .explore__button--template {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .project__item {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .project__item {
+    max-width: 400px;
+  }
+
+  .container_wrapper {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .project__item {
+    max-width: 320px;
+  }
+
+  .companies_img {
+    padding: 45px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .explore__button--template {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projects_slider > .slick-list {
+    position: relative;
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .project__item {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+}

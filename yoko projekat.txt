@@ -1,0 +1,49 @@
+broj sati 79 + 19 = 98h       prosli projekat 105h
+
+
+Pocetak 06.07 (4 blocka ne znam koliko je po danu bilo do 11.06 jer mi je kasnije receno da evidentiram
+
+11.07. 6h
+
+2 blocka (sencteus i companies slick) 
+
+otvaranje tabova i slider
+
+12.07. 6h
+
+2 blocka (blog i togheter) 
+
+veci deo vremena u analizi main.js za tabove
+
+13.07. 7h
+4 blocka (footer about-banner about_me team) 
+
+14.07. 6h
+2 blocka (about-slider blog-articles) 
+
+15.07. 6h
+3 blocka (blog-categories blog_massa tricks)
+
+18.07. 6h
+3 blocka 2 su bila ponovljena (case_study isotope dokumentacija)
+
+19.07. 6h
+3 blocka (case_study_images the_process next_projects priprema za responsive)
+
+20.07. 7h
+responsive (isotope responsive istrazivanje)
+
+21.07. 6h
+responsive (isotope responsive istrazivanje)
+
+22.07. 6h
+responsive
+
+25.07. 6h
+responsive (togglovanje buttona za tabs)
+
+26.07. 6h
+miloseve sugestije
+
+27.07. 5h
+miloseve sugestije the end

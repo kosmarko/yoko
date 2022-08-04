@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
+    <!--SLICK SLAJDER-->
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <title>Yoko</title>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-md border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./img/site_logo.png" alt="logo" />
+          <span class="navbar-brand navbar-brand--name">yoko</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./careers.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Sections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Contact</a>
+            </li>
+          </ul>
+          <button class="btn nav__explore">Explore</button>
+        </div>
+      </div>
+    </nav>
+    <section class="our_articles">
+      <div class="container">
+        <div class="row">
+          <div class="articles_blog">
+            <p>blog</p>
+          </div>
+          <div class="articles_header">
+            <div class="articles_heading">
+              <h2>
+                Our
+                <span class="heading__underline heading__underline--height_15"
+                  >articles</span
+                >
+              </h2>
+            </div>
+            <div class="blog_tabs">
+              <ul>
+                <li><a href="#">design</a></li>
+                <li><a href="#">development</a></li>
+                <li><a href="#">branding</a></li>
+                <li><a href="#">marketing</a></li>
+                <li><a href="#">business</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 pe-lg-3">
+            <div class="card card--blog">
+              <div class="card-img-top card-img-top--blog">
+                <img src="./img/articles-img.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="card-body card-body--blog">
+                <h4>
+                  Nisl imperdiet morbi bibendum lorem erat. Feugiat commodo
+                </h4>
+                <p class="card-text card-text--blog">21 November 2020</p>
+                <div class="read__more read__more--blog">
+                  <a href="#" class="read__underline">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ps-lg-3">
+            <div class="card card--blog">
+              <div class="card-img-top card-img-top--blog">
+                <img src="./img/articles-img.png" class="img-fluid" alt="..." />
+              </div>
+              <div class="card-body card-body--blog">
+                <h4>
+                  Nisl imperdiet morbi bibendum lorem erat. Feugiat commodo
+                </h4>
+                <p class="card-text card-text--blog">21 November 2020</p>
+                <div class="read__more read__more--blog">
+                  <a href="#" class="read__underline">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="categories">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="nav_sticky">
+              <div class="articles_blog articles_blog--categories">
+                <p>Categories</p>
+              </div>
+              <div class="categories_tabs">
+                <ul>
+                  <li data-filter="*" class="active">All</li>
+                  <li data-filter=".design">Design</li>
+                  <li data-filter=".development">development</li>
+                  <li data-filter=".branding">branding</li>
+                  <li data-filter=".marketing">marketing</li>
+                  <li data-filter=".business">business</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="isotope_container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="card card--categories business design marketing">
+                    <div class="card-img-top card-img-top--categories">
+                      <img
+                        src="./img/categories-1.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body--categories">
+                      <h3>
+                        Nisl imperdiet morbi bibendum lorem erat. Feugiat
+                        commodo
+                      </h3>
+                      <p class="card-text card-text--categories">
+                        21 November 2020
+                      </p>
+                      <div class="read__more read__more--blog">
+                        <a href="#" class="read__underline">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div
+                    class="card card--categories ml_responsive development branding business"
+                  >
+                    <div class="card-img-top card-img-top--categories">
+                      <img
+                        src="./img/categories-2.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body--categories">
+                      <h3>
+                        Nisl imperdiet morbi bibendum lorem erat. Feugiat
+                        commodo
+                      </h3>
+                      <p class="card-text card-text--categories">
+                        21 November 2020
+                      </p>
+                      <div class="read__more read__more--blog">
+                        <a href="#" class="read__underline">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card card--categories business branding">
+                    <div class="card-img-top card-img-top--categories">
+                      <img
+                        src="./img/categories-3.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body--categories">
+                      <h3>
+                        Nisl imperdiet morbi bibendum lorem erat. Feugiat
+                        commodo
+                      </h3>
+                      <p class="card-text card-text--categories">
+                        21 November 2020
+                      </p>
+                      <div class="read__more read__more--blog">
+                        <a href="#" class="read__underline">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card card--categories ml_responsive design">
+                    <div class="card-img-top card-img-top--categories">
+                      <img
+                        src="./img/categories-4.png"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="card-body--categories">
+                      <h3>
+                        Nisl imperdiet morbi bibendum lorem erat. Feugiat
+                        commodo
+                      </h3>
+                      <p class="card-text card-text--categories">
+                        21 November 2020
+                      </p>
+                      <div class="read__more read__more--blog">
+                        <a href="#" class="read__underline">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="massa">
+        <div class="container">
+          <div class="row">
+            <div class="articles_blog articles_blog--massa">
+              <p>Subscribe</p>
+            </div>
+            <div class="massa_heading">
+              <h2>Massa egestas elementum posuere non sodales</h2>
+            </div>
+          </div>
+          <div class="btns_massa">
+            <div class="input-group massa_input">
+              <input
+                type="text"
+                class="form-control form-control--massa"
+                placeholder="Your name"
+                aria-label="Your name"
+              />
+              <div class="input-group-prepend input-group-prepend--massa">
+                <div class="input_img">
+                  <img src="./img/user.svg" alt="logo" />
+                </div>
+              </div>
+            </div>
+            <div class="input-group massa_input">
+              <input
+                type="email"
+                class="form-control form-control--massa"
+                placeholder="Your e-mail"
+                aria-label="Your e-mail"
+              />
+              <div class="input-group-prepend input-group-prepend--massa">
+                <div class="input_img">
+                  <img src="./img/envelop.svg" alt="logo" />
+                </div>
+              </div>
+            </div>
+            <button class="btn btn_submit btn_submit--massa" type="submit">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <div class="footer_logo">
+              <a href="./index.html"
+                ><img src="./img/site_logo.png" alt="logo" />
+                <span class="logo_name">yoko</span></a
+              >
+            </div>
+            <div class="subscribe_desktop">
+              <div class="footer_text">
+                <p>Subscribe for all updates</p>
+              </div>
+              <div class="input-group footer_input">
+                <input
+                  type="text"
+                  class="form-control form-control--footer"
+                  placeholder="E-mail"
+                  aria-label="E-mail"
+                />
+                <div class="input-group-prepend">
+                  <button class="btn btn_submit" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="footer_text footer_text--socials">
+              <p>Socials</p>
+            </div>
+            <div class="footer_media">
+              <div class="footer_socials">
+                <div class="footer_facebook">
+                  <a href="#"
+                    ><img
+                      src="./img/fotter_facebook.png"
+                      class="img-fluid"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="footer_instagram">
+                  <a href="#"
+                    ><img
+                      src="./img/fotter_instagram.png"
+                      class="img-fluid"
+                      alt="..."
+                  /></a>
+                </div>
+                <div class="footer_twiter">
+                  <a href="#"
+                    ><img
+                      src="./img/fotter_twiter.png"
+                      class="img-fluid"
+                      alt="..."
+                  /></a>
+                </div>
+              </div>
+              <div class="footer_copyright">
+                <p>Copyright &copy My Company. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer_pages">
+                  <ul>
+                    Pages
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer_pages">
+                  <ul>
+                    Pages
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Career</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer_pages">
+                  <ul>
+                    Pages
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Career</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer_support">
+                <div class="support_name">
+                  <p>powered by</p>
+                  <p>Webflow</p>
+                </div>
+                <div class="support_name">
+                  <p>Support</p>
+                  <p>Maciej Kociela</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="subscribe_responsive">
+              <div class="footer_text">
+                <p>Subscribe for all updates</p>
+              </div>
+              <div class="input-group footer_input">
+                <input
+                  type="text"
+                  class="form-control form-control--footer"
+                  placeholder="E-mail"
+                  aria-label="E-mail"
+                />
+                <div class="input-group-prepend">
+                  <button class="btn btn_submit" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--SLICK SLAJDER-->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
