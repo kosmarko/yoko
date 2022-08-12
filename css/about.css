@@ -139,7 +139,7 @@
   font-size: 36px;
 }
 
-/* imao sam istu sintaksu ali razlicito ime klase kakva je praksa u tom slucaju (founder_position) */
+
 .story_title {
   font-family: "Optician Sans", sans-serif;
   font-size: 17px;
@@ -186,12 +186,10 @@
 }
 
 @media screen and (max-width: 1440px) {
-  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
   .story_slider {
     overflow-x: hidden;
   }
 
-  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
   .story_slider > .slick-list {
     position: relative;
     overflow-x: hidden;

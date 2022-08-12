@@ -107,7 +107,6 @@
 }
 
 .client_feedback__paragraph {
-  /* max-width: 537px; */
   padding: 43px 0 43px;
 }
 
@@ -283,11 +282,9 @@
 }
 
 @media screen and (max-width: 1440px) {
-  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
   .projects_slider {
     overflow-x: hidden;
   }
-  /* ovo bi mnozda moglo u media query da se stavi a ne globalno */
   .projects_slider > .slick-list {
     position: relative;
     left: 4%;
