@@ -246,14 +246,24 @@
   .categories_tabs ul li:nth-child(6) {
     margin-right: 0;
   }
-
-
 }
 
 @media screen and (max-width: 640px) {
 }
 
 @media screen and (max-width: 576px) {
+  .categories_tabs ul li {
+    margin-right: 10px;
+  }
+
+  .categories_tabs ul li:nth-child(3) {
+    margin-right: 10px;
+  }
+  .categories_tabs ul li:nth-child(2),
+  .categories_tabs ul li:nth-child(4),
+  .categories_tabs ul li:nth-child(6) {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 540px) {
