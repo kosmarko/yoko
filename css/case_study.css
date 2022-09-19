@@ -509,10 +509,6 @@
     justify-content: space-evenly;
   }
 
-  /* .nyska_mid {
-    align-items: flex-start;
-  } */
-
   .articles__button--nyska {
     width: 100%;
   }
@@ -549,11 +545,6 @@
   .process_bg {
     max-height: 350px;
   }
-
-  /* .articles__button--nyska {
-    width: 100%;
-    margin-top: 30px;
-  } */
 }
 
 @media screen and (max-width: 540px) {
