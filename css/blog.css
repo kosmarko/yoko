@@ -235,7 +235,7 @@
   }
 
   .categories_tabs ul li {
-    width: 31.9%;
+    width: 152px;
     margin-right: 10px;
   }
 
@@ -253,16 +253,15 @@
 
 @media screen and (max-width: 576px) {
   .categories_tabs ul li {
+    width: 138px;
+  }
+  
+  .categories_tabs ul li {
     margin-right: 10px;
   }
 
   .categories_tabs ul li:nth-child(3) {
     margin-right: 10px;
-  }
-  .categories_tabs ul li:nth-child(2),
-  .categories_tabs ul li:nth-child(4),
-  .categories_tabs ul li:nth-child(6) {
-    margin-right: 0;
   }
 }
 
